@@ -1,0 +1,64 @@
+
+@font-face {
+    font-family: digital-dream;
+    src: url("font/digital-dream.regular.ttf");
+}
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: digital-dream;
+    color: whitesmoke;
+    background: linear-gradient(gray, black);
+}
+
+h3 {
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+}
+
+.container {
+    width: 575px;
+    height: 385px;
+    display: flex;
+    justify-content: space-evenly;
+    background: #065F46;
+    border: 10px double #9F1239;
+    border-radius: 15px;
+}
+.inner-cont {
+    margin-top: 30px;
+}
+
+.display {
+    height: 120px;
+    width: 155px;
+    border-radius: 5px;
+    background: black;
+    font-size: 80px;
+    color: #9F1239;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-cont {
+    width: 155px;
+    height: 45px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+button {
+    width: 45px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    color: whitesmoke;
+    background: #065F46;
+    font-size: 15px;
+    font-family: digital-dream;
+}
